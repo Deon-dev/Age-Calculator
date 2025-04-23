@@ -94,6 +94,10 @@ button:hover {
         padding: 20px;
     }
 
+    input[type="date"] {
+        width: 80%;
+    }
+
     h1 {
         font-size: 1.8rem;
     }
