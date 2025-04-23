@@ -86,3 +86,47 @@ button:hover {
     font-weight: bold;
     color: #6a11cb;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    .result {
+        font-size: 0.9rem;
+    }
+}
